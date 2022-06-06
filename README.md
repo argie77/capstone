@@ -19,7 +19,11 @@
 - A pop up page where you can put the information for payment.
 - To insert an sms Api, where the customers can receive a text message when they order.
 
-## Wireframs
+## Wireframes
 
 ## Technology 
 Mern
+
+### Reference
+https://nextjs.org/docs/api-reference/next/router
+https://www.youtube.com/watch?v=omV9GEpQUGk

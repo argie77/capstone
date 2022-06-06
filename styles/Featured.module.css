@@ -1,0 +1,14 @@
+.container{
+    height:calc(100vh - 100px);
+    background-color: aliceblue;
+}
+
+.arrowContainer {
+    position:absolute;
+    width: 5%;
+    height: 10%;
+    top: 0;
+    bottom: 0px; 
+    cursor: pointer;
+    margin: auto;
+}
