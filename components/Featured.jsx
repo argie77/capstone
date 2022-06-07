@@ -12,9 +12,11 @@ const Featured = () => {
     ];
 
     const handleArrow = (direction) =>{
+        // the slide will start from the 1st picture and end on the 3rd picture
         if(direction==="r"){
             setIndex(index !== 0? index-1 :2)
         }
+        // the slide will have to go back from the 1st picture
         if(direction==="l"){
             setIndex(index !== 2 ? index+1 : 0)
         }
