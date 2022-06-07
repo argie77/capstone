@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Featured from '../components/Featured';
-//import PastaList from '../components/PastaList';
+import PastaList from '../components/PastaList';
 
 export default function Home() {
   return (
