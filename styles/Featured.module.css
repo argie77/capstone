@@ -4,6 +4,7 @@
     overflow:hidden;
 }
 
+/*was having a problem to have the right arrow to shop up but I put the z-index and it works */
 .arrowContainer {
     position:absolute;
     width: 5%;
@@ -12,10 +13,11 @@
     bottom: 0px; 
     cursor: pointer;
     margin: auto;
+    z-index: 2;
 }
 
 .wrapper{
-    width:300vw;
+    width:299vw;
     height: 100%;
     display:flex;
 

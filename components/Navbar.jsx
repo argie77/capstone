@@ -16,10 +16,10 @@ const Navbar = () => {
       </div>
       <div className={styles.item}>
        <ul className={styles.list}>
+         <Image src="/img/pasta-logo-hand-drawn-vector-illustration-of-chef-cooker-with-a-mustache-and-plate-with-spaghetti-italian-chef-logo-2F1N217.jpeg" alt="" width="140px" height="80x" />
          <li className={styles.listItem}>Homepage</li>
          <li className={styles.listItem}>Products</li>
          <li className={styles.listItem}>Menu</li>
-         <Image src="/img/pasta-logo-hand-drawn-vector-illustration-of-chef-cooker-with-a-mustache-and-plate-with-spaghetti-italian-chef-logo-2F1N217.jpeg" alt="" width="140px" height="80x" />
          <li className={styles.listItem}>Contacts</li>
          </ul>
         </div>
