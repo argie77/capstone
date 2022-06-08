@@ -1,0 +1,12 @@
+.container{
+    height: calc(100vh - 100px); 
+    background-color: darkgray;
+    display:flex;
+
+}
+/* picture and info*/
+.item{
+    flex:1;
+    position: relative;
+
+}

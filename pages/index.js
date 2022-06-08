@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css';
 import Featured from '../components/Featured';
 import PastaList from '../components/PastaList';
 
+
 export default function Home() {
   return (
     <div className={styles.container}>
