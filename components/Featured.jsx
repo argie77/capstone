@@ -27,7 +27,7 @@ const Featured = () => {
   return (
     <div className={styles.container}>
         <div className={styles.arrowContainer} style={{right:0}} onClick={()=>handleArrow("r")} > 
-        <Image src="/img/71-714874_right-arrow-png-picture-icon-right-arrow-png.png" layout="fill" alt="" objectfit="contain" />
+        <Image src="/img/585e46c3cb11b227491c3377.png" layout="fill" alt="" objectfit="contain" />
         </div>
         <div className={styles.wrapper} style={{transform:`translateX(${-100*index}vw)`}}>
             {images.map((img, i) => (
@@ -37,7 +37,7 @@ const Featured = () => {
             ))}
         </div>
         <div className={styles.arrowContainer} style={{left:0}} onClick={()=>handleArrow("l")}> 
-        <Image src="/img/111-1119167_left-arrow-png-icon-left-arrow-png-transparent.png" layout="fill" alt="" objectit="contain" />
+        <Image src="/img/585e46b9cb11b227491c3376.png" layout="fill" alt="" objectit="contain" />
         </div>
         </div>
   )
