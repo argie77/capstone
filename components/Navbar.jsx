@@ -16,7 +16,7 @@ const Navbar = () => {
       </div>
       <div className={styles.item}>
        <ul className={styles.list}>
-         <Image src="/img/pasta-logo-hand-drawn-vector-illustration-of-chef-cooker-with-a-mustache-and-plate-with-spaghetti-italian-chef-logo-2F1N217.jpeg" alt="" width="140px" height="80x" />
+         <Image src="/img/61194acbf8fe340004e0d2cf.png" alt="" width="140px" height="80x" />
          <li className={styles.listItem}>Homepage</li>
          <li className={styles.listItem}>Products</li>
          <li className={styles.listItem}>Menu</li>
@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
       <div className={styles.item}>
         <div className={styles.cart}> 
-        <Image src="/img/shopping-cart-icon-on-white-background-template-for-your-design-PY0KPX.jpeg" alt="" width="40px" height="40px" />
+        <Image src="/img/59bedb1e7a216d0b052f128b.png" alt="" width="40px" height="40px" />
         <div className={styles.counter}>2</div>
         </div>
         </div>

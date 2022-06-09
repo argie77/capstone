@@ -25,5 +25,6 @@
 Mern
 
 ### Reference
-https://nextjs.org/docs/api-reference/next/router
-https://www.youtube.com/watch?v=omV9GEpQUGk
+-https://nextjs.org/docs/api-reference/next/router
+-https://www.youtube.com/watch?v=omV9GEpQUGk
+-https://www.stickpng.com/img/download/585e46b9cb11b227491c3376

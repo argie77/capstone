@@ -8,7 +8,7 @@ const Featured = () => {
     const images = [
         "/img/download.jpeg",
          "/img/photo-1579684947550-22e945225d9a.avif",
-         "/img/photo-1516100882582-96c3a05fe590.avif",
+         "/img/photo-1551183053-bf91a1d81141.avif",
          
     ];
 

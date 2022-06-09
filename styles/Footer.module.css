@@ -1,6 +1,6 @@
 .container{
     height: calc(100vh - 100px); 
-    background-color: darkgray;
+    background-color: darkgrey;
     display:flex;
 
 }
@@ -8,12 +8,28 @@
 .item{
     flex:1;
     position: relative;
-    
-
 }
+
+
 
 .card{
     flex: 1;
     padding: 0 20x;
 
 }
+
+.title{
+    font-size: 18px;
+    color: brown;
+ 
+}
+
+.text{
+    color: black;
+
+}
+
+.motto{
+    font-size: 20px;
+}
+

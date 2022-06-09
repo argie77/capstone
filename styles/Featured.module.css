@@ -7,18 +7,23 @@
 /*was having a problem to have the right arrow to shop up but I put the z-index and it works */
 .arrowContainer {
     position:absolute;
-    width: 5%;
-    height: 10%;
+    width: 4%;
+    height: 4%;
     top: 0;
-    bottom: 0px; 
+    bottom: 240px; 
     cursor: pointer;
     margin: auto;
     z-index: 2;
 }
+
+.arrowContainer:hover{
+    transform: scale(2);
+}
+
 /*picture for the slide*/
 .wrapper{
     width:299vw;
-    height: 100%;
+    height: 200%;
     display:flex;
     transition: all 1s ease-in-out ;
 }
@@ -28,3 +33,4 @@
     height: 500px;
     position: relative;
 }
+
