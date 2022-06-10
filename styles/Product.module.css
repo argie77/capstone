@@ -13,11 +13,7 @@
 }
 
 .right{
-    flex: 1;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    flex: 1; 
     padding: 20px;
 
 }
@@ -26,4 +22,53 @@
     width: 80%;
     height: 80%;
     position:relative;
+}
+
+.price{
+    color: teal;
+    font-size: 25px;
+    font-weight: 400;
+    border-bottom: 1px solid teal;
+
+}
+
+.sizes {
+    display: flex;
+    justify-content: space-between ;
+    width: 50%;
+    cursor: pointer;
+    height: 10%;
+}
+
+.number {
+    position: absolute;
+    background-color: teal;
+    color: white;
+    font-size: 12px;
+    padding: 0 5px;
+    border-radius: 10px;
+  }
+  
+
+  .number:hover{
+    transform: scale(1.5);
+}
+
+.quantity {
+    width: 50px;
+    height: 25px;
+
+}
+
+.button{
+    height: 25px;
+    margin-left: 10px;
+    background-color: aliceblue;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.button:hover{
+    transform: scale(0.9);
+
 }
