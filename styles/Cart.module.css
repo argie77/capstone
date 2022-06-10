@@ -1,0 +1,51 @@
+.container {
+    padding: 50px;
+    display: flex;
+  }
+  
+  .left {
+    flex: 2;
+  }
+  
+  .right {
+    flex: 1;
+  }
+  
+  .imgContainer {
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+  
+  .table {
+    width: 100%;
+    border-spacing: 20px;
+  }
+
+.wrapper{
+    width: 90%;
+    max-height: 300px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+
+}
+
+/* .wrapper:hover{
+    transform: scale(0.9);
+
+} */
+
+.totalTextTitle{
+    margin-right: 12px;
+}
+
+.button{
+height: 30px;
+width: 200px;
+cursor: pointer;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}
