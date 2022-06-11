@@ -1,14 +1,14 @@
 import Image from "next/image";
 import styles from "../styles/PastaCard.module.css";
 
-const PastaCard = () => {
+const PastaCard = (pasta) => {
   return (
     <div className={styles.container}>
-        <Image src="img/photo-1616299908398-9af1134ad522.avif" alt="" width="500" height="500" />
-        <h1 className={styles.title}>Pasta of the day!</h1>
-      <span className={styles.price}>$19.90</span>
+        <Image src={pasta.img} alt="" width="500" height="500" />
+        <h1 className={styles.title}>{pasta.title}</h1>
+      <span className={styles.price}>${pasta.prices[0]}</span>
       <p className={styles.desc}>
-        hi
+      {pasta.desc}
       </p>
     </div>
   )

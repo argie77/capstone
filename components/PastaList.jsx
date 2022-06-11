@@ -1,6 +1,6 @@
 //import styles from "..styles/PastaList.module.css";
 import PastaCard from "./PastaCard";
-//this page is showing up with Ray's help(forgot to put the / in the beginning of style)
+//this page is showing up with Ray's help(forgot to put the / in frongt of styles)
 import styles from "../styles/PastaList.module.css";
 
 const PastaList = ({ pastaList }) => {
@@ -13,10 +13,9 @@ const PastaList = ({ pastaList }) => {
          hello
       </p>
        <div classsName={styles.wrapper}>
-           {/* {pastaList.map((pasta) => (
+       {pastaList.map((pizza) => (
             <PastaCard key={pasta._id} pasta={pasta} />
-          ) */}
-          {/* )} */}
+          ))}
         </div>
         </div>
     )

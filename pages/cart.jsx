@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/Cart.module.css";
+import { useState } from "react";
 
 const Cart = () => {
   return (
