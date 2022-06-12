@@ -12,12 +12,13 @@ const Product = ({ pasta }) => {
   const [quantity, setQuantity] = useState(1);
   const dispatch = useDispatch();
 
+
   //this is for the cart
   const handleClick = () => {
     dispatch(addProduct({...pasta.price, quantity}));
   }
 
-
+// the data is not showing 
   return (
       <div className={styles.container}> 
       <div className={styles.left}>
@@ -48,7 +49,7 @@ const Product = ({ pasta }) => {
 }
 
 //In nextJs this is how we fetch data because we are using server site rendering not the client side
-export const getServerSideProps = async ({params}) =>{
+export const getServerSideProps = async ({ params }) => {
   //using this for our props
 const res = await axios.get(`http://localhost:3000/api/products/${params.id}`);
 return {
