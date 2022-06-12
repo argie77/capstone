@@ -6,16 +6,16 @@ import styles from "../styles/PastaList.module.css";
 const PastaList = ({ pastaList }) => {
     return (
     
-
+//mapping fixed because the function is define in page index.
     <div className = {styles.container}>
        <h1 className={styles.title}> THE BEST ITALIAN PASTA IN NEW YORK</h1>
        <p className={styles.desc}>
          hello
       </p>
        <div classsName={styles.wrapper}>
-       {pastaList.map((pizza) => (
-            <PastaCard key={pasta._id} pasta={pasta} />
-          ))}
+       {pastaList.map((pasta) => (
+          <PastaCard key={pasta._id} pasta={pasta} />
+        ))}
         </div>
         </div>
     )

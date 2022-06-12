@@ -5,8 +5,10 @@ import Featured from '../components/Featured';
 import PastaList from '../components/PastaList';
 import axios from 'axios';
 
+
 //props function home
-export default function Home(pastaList) {
+//was having a problem mapping but I was just missing {} on my function pasta 
+export default function Home({ pastaList }) {
 
   return (
     <div className={styles.container}>
