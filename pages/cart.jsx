@@ -1,8 +1,12 @@
 import Image from "next/image";
 import styles from "../styles/Cart.module.css";
 import { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import axios from "axios";
 
 const Cart = () => {
+  const dispatch = useDispatch()
+  const cart = useSelector(state=>state.cart)
   return (
     <div className={styles.container}> 
        <div className={styles.left}>
@@ -14,38 +18,40 @@ const Cart = () => {
                   <th>Quantity</th>
                   <th>Total</th>
               </tr>
-              <tr>
+              {cart.products.map((product) =>(
+              <tr className={styles.tr} key={product._id}>
                   <td>
                       <div className={styles.imgContainer}>
-                      <Image src="/img/photo-1616299908398-9af1134ad522.avif" layout="fill" objectFit="cover" alt="" />
+                      <Image src={product.img} layout="fill" objectFit="cover" alt="" />
                       </div>
                   </td>
                   <td>
-                  <span className={styles.product}>Penne</span>
+                  <span className={styles.name}>{product.title}</span>
                   </td>
                   <td>
-                  <span className={styles.price}>$14.99</span> 
+                  <span className={styles.price}>$1{product.price}</span> 
                   </td>
                   <td>
-                  <span className={styles.quantity}>2</span> 
+                  <span className={styles.quantity}>{product.quantity}</span> 
                   </td>
                   <td>
-                  <span className={styles.total}>$29.98</span> 
+                  <span className={styles.total}>${product.price * product.quantity}</span> 
                   </td>
               </tr>
+              ))}
               </table>  
         </div>
         <div className={styles.right}>
         <div className={styles.wrapper}>
         <h2 className={styles.title}>Cart Total</h2>
         <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Subtotal:</b>$29.98
+            <b className={styles.totalTextTitle}>Subtotal:</b>${cart.total}
           </div>
           <div className={styles.totalText}>
             <b className={styles.totalTextTitle}>Discount:</b>$0.00
           </div>
           <div className={styles.totalText}>
-            <b className={styles.totalTextTitle}>Total:</b>$29.98
+            <b className={styles.totalTextTitle}>Total:</b>${cart.total}
           </div>
           <button className={styles.button}>Checkout</button>
          </div>
