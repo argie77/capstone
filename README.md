@@ -21,6 +21,23 @@
 
 ## Wireframes
 
+![Screen Shot 2022-06-13 at 1 12 51 AM](https://user-images.githubusercontent.com/9922785/173284285-fa6f6c7a-0222-4e99-9852-8bd7dbb6e053.png)
+
+
+![Screen Shot 2022-06-13 at 1 13 04 AM](https://user-images.githubusercontent.com/9922785/173284297-4693fcaa-553b-4fb4-838a-4105b9e95fbb.png)
+
+
+![Screen Shot 2022-06-13 at 1 13 14 AM](https://user-images.githubusercontent.com/9922785/173284309-b1cdbc4f-e5b9-4723-8892-39fe0795f487.png)
+
+![Screen Shot 2022-06-13 at 1 13 26 AM](https://user-images.githubusercontent.com/9922785/173284320-a073fdf3-3384-4377-bc02-57f504cfa917.png)
+
+
+![Screen Shot 2022-06-13 at 1 13 38 AM](https://user-images.githubusercontent.com/9922785/173284330-9ae1e076-7780-4b3b-ad2d-cfecb886a289.png)
+
+
+
+
+
 ## Technology 
 Mern
 
