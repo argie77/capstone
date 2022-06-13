@@ -2,6 +2,8 @@
 
 ## Description 
 
+A Pasta Restaurant website where you can order food.
+
 
 ## User Stories
 - As a user, I want to browse the items.
