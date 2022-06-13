@@ -13,9 +13,9 @@ const PastaList = ({ pastaList }) => {
        Come and enjoy savory Italian cuisine in an upscale dining atmosphere.
       </p>
        <div classsName={styles.wrapper}>
-       {pastaList.map((pasta) => (
+       {/* {pastaList.map((pasta) => (
           <PastaCard key={pasta._id} pasta={pasta} />
-        ))}
+        ))} */}
         </div>
         </div>
     )
