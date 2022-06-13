@@ -95,20 +95,20 @@ const ButtonWrapper = ({ currency, showSpinner }) => {
               <tr className={styles.tr} key={product._id}>
                   <td>
                       <div className={styles.imgContainer}>
-                      <Image src={product.img} layout="fill" objectFit="cover" alt="" />
+                      <Image src="/img/photo-1616299908398-9af1134ad522.avif" layout="fill" objectFit="cover" alt="" />
                       </div>
                   </td>
                   <td>
-                  <span className={styles.name}>{product.title}</span>
+                  <span className={styles.name}>{product.tilte}Penne Pasta</span>
                   </td>
                   <td>
-                  <span className={styles.price}>${product.price}</span> 
+                  <span className={styles.price}>${product.price}14.99</span> 
                   </td>
                   <td>
                   <span className={styles.quantity}>{product.quantity}</span> 
                   </td>
                   <td>
-                  <span className={styles.total}>${product.price * product.quantity}</span> 
+                  <span className={styles.total}>$14.99</span> 
                   </td>
               </tr>
               ))}
